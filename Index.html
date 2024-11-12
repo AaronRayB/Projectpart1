@@ -5,15 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BaseNoteIt</title>
     <img src="Project part 1 Team logo.png" alt="Team Logo">
-    <link rel="stylesheet" href="cssstyle.css">
+    <link rel="stylesheet" href="csstyle.css">
 </head>
 <body>
- 
+
 <header>
     <h1>Task Management</h1>
 </header>
 <div class="container">
-    <!-- Form to Create a New Task -->
+    <!-- Creation of new task -->
     <h2>Create a New Task</h2>
     <form id="taskForm">
         <label for="title">Title:</label>
@@ -39,7 +39,7 @@
             <option value="Completed">Completed</option>
         </select><br>
 
-        <!-- New Fields for Recurring Tasks -->
+        <!--  Recurring Tasks -->
         <label for="recurring">Recurring:</label>
         <input type="checkbox" id="recurring"><br>
 
@@ -49,7 +49,7 @@
             <option value="weekly">Weekly</option>
         </select><br>
 
-        <!-- New Category Field -->
+        <!-- New Category  -->
         <label for="category">Category:</label>
         <select id="category">
             <option value="Work">Work</option>
@@ -73,7 +73,7 @@
             </tr>
         </thead>
         <tbody id="taskTable">
-            <!-- Task rows will be further added here -->
+            <!-- Task rows will appear here -->
         </tbody>
     </table>
 
